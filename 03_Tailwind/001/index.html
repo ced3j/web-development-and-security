@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+
+  <nav class="bg-blue-500 text-white">
+    <div class="max-w-7x1 mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flext justify-between items-center h-16">
+        LOGO
+        <div class="flex items-center">
+          <span class="text-2xl font-bold">MyLogo</span>
+        </div>
+
+
+        <div class="hidden md:flex space-x-4"> 
+          <a href="#" class="px-3 py-2 rounded hover:bg-blue-600">Home</a>
+          <a href="#" class="px-3 py-2 rounded hover:bg-blue-600">About</a>
+          <a href="#" class="px-3 py-2 rounded hover:bg-blue-600">Services</a>
+          <a href="#" class="px-3 py-2 rounded hover:bg-blue-600">Contact</a>
+        </div>
+
+        <div class="md:hidden">
+          <button class="text-white hover:text-gray-300">
+            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+
+
+  <h1 class="bg-pink-400 font-bold underline flex justify-center w-6/6">
+    Hello world!
+  </h1>
+
+  <!-- Custom arkaplan ve yazı rengi -->
+  <h2 class="bg-[#17153B] text-[#C8ACD6] flex justify-center text-4xl">
+    Yazı test.
+  </h2>
+
+  <div class="flex justify-center w-2/5">
+    <p class="bg-green-700 w-5/6">Test1</p>
+    <p class="bg-green-600 w-5/6">Test2</p>
+    <p class="bg-green-500 w-5/6">Test3</p>
+    <p class="bg-green-400 w-5/6">Test4</p>
+  </div>
+
+
+  <div>
+    <p class="text-xl font-bold text-red-500 text-center">Metin stilleri test</p>
+  </div>
+
+  <div class="bg-blue-500">
+    <p class="text-right">Arkaplan stilleri</p>
+  </div>
+
+  <div class="bg-blue-950">
+    <div class="w-10 h-10 px-4">Testing</div>
+  </div>
+
+
+  <div class="text-center bg-orange-200">
+    <h1 class="font-bold text-4xl">Responsive Tasarım</h1>
+    <ul class="text-center">
+      <li>sm → 640px ve üstü (küçük ekranlar).</li>
+      <li>md → 768px ve üstü (orta ekranlar).</li>
+      <li>lg → 1024px ve üstü (büyük ekranlar).</li>
+      <li>xl → 1280px ve üstü (çok büyük ekranlar).</li>
+      <li>2xl → 1536px ve üstü.</li>
+    </ul>
+
+    <div class="bg-gray-300 p-4 sm:bg-blue-300 md:bg-green-300 lg:bg-yellow-300 xl:bg-red-300">X</div>
+  </div>
+
+  
+  <div class="bg-red-400 border-black">
+    <h1>Flexbox</h1>
+    <div class="flex flex-row bg-red-500">
+      <h3 class="bg-blue-300 p-4 text-white rounded mt-4">A</h3>
+      <h3 class="bg-blue-300 p-4 text-white rounded ml-4">A</h3>
+      <h3 class="bg-blue-300 p-4 text-white rounded ml-4">A</h3>
+    </div>
+
+    <div class="flex flex-row-reverse bg-red-600">
+      <h3>B</h3>
+      <h3>B</h3>
+      <h3>B</h3>
+    </div>
+
+    <div class="flex flex-col bg-red-700">
+      <h3>C</h3>
+      <h3>C</h3>
+      <h3>C</h3>
+    </div>
+  </div>
+
+  <div>
+    <button class="px-4 py-2 bg-blue-300 text-white rounded hover:bg-blue-600 sm:hover:bg-black lg:hover:bg-yellow-300">Hover Button</button>
+  </div>
+
+
+  <div class="bg-gray-100 flex justify-center items-center py-10">
+
+    <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="https://via.placeholder.com/400x200" alt="Card Image" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h2 class="text-lg font-bold text-gray-800">Card Title</h2>
+        <p class="text-gray-600 mt-2">
+          This is a simple card description. It can be used to display information or act.. 
+        </p>
+
+        <div class="mt-4 flex justify-between items-center">
+          <a href="#" class="text-blue-500 hover:underline">Learn More</a>
+          <button class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Action</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
